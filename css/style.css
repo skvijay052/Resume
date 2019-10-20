@@ -44,6 +44,9 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+@media only screen and (max-width: 600px) {.personal_text .basic_info li a i{top: 26% !important;}}
+
+
 section.home_gallery_area.p_120 {
   background-color: #f8f8f8;
 }
@@ -2743,7 +2746,7 @@ h6 {
     .personal_text .basic_info li a i {
       position: absolute;
       left: 0px;
-      top: 50%;
+      top: 25%;
       transform: translateY(-50%);
       font-size: 20px;
       color: #766dff; }
